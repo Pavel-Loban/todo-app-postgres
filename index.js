@@ -11,7 +11,7 @@ const corsOptions = {
 origin: "*"
 }
 
-app.use(corse(corseOptions))
+app.use(corse(corsOptions))
 
 app.use(express.json())
 
